@@ -2,13 +2,11 @@ package Sameer;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
 
 public class BankingApp {
-	private static final String url = "jdbc:mysql://localhost:3307/Banking";
+	private static final String url = "jdbc:mysql://localhost:3307/banking_system";
     private static final String username = "root";
     private static final String password = "root";
 

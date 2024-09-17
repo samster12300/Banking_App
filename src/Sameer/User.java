@@ -7,6 +7,7 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 public class User {
+	private static final String Action = null;
 	private Connection connection;
     private Scanner scanner;
 
